@@ -1,0 +1,17 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+
+<h1>Movie records: Home</h1>
+
+    <p>Welcome to <em>MovieGuide</em>, the best Movie website</p>
+
+<h2>Inventory</h2>
+
+<p>Movie records:</p>
+<ul>
+    <li><strong>Movies:</strong> {{ num_movies }}</li>
+    <li><strong>Directors:</strong> {{ num_directors }}</li>
+</ul>
+
+{% endblock %}
